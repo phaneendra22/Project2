@@ -1,4 +1,4 @@
-sysfs /sys sysfs rw,seclabel,nosuid,nodev,noexec,relatime 0 0
+sysfs /sys sysfs rw,seclabel,nosuid,nodev,noexec,relatime 0 0 12
 proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
 devtmpfs /dev devtmpfs rw,seclabel,nosuid,size=1879536k,nr_inodes=469884,mode=755 0 0
 securityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0
